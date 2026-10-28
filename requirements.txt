@@ -1,0 +1,4 @@
+pennylane>=0.40
+scikit-learn
+numpy
+matplotlib

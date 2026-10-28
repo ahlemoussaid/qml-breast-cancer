@@ -1,0 +1,70 @@
+{
+  "Logistic Regression": {
+    "accuracy": 0.9649122807017544,
+    "recall_malignant": 0.90625,
+    "f1": 0.9508196721311475,
+    "roc_auc": 0.9981016355140186,
+    "seconds": 0.01,
+    "confusion_matrix": [
+      [
+        107,
+        0
+      ],
+      [
+        6,
+        58
+      ]
+    ]
+  },
+  "SVM (RBF)": {
+    "accuracy": 0.9532163742690059,
+    "recall_malignant": 0.890625,
+    "f1": 0.9344262295081968,
+    "roc_auc": 0.9981016355140186,
+    "seconds": 0.01,
+    "confusion_matrix": [
+      [
+        106,
+        1
+      ],
+      [
+        7,
+        57
+      ]
+    ]
+  },
+  "Quantum Kernel SVM": {
+    "accuracy": 0.935672514619883,
+    "recall_malignant": 0.84375,
+    "f1": 0.907563025210084,
+    "roc_auc": 0.9932827102803738,
+    "seconds": 3.38,
+    "confusion_matrix": [
+      [
+        106,
+        1
+      ],
+      [
+        10,
+        54
+      ]
+    ]
+  },
+  "Variational Quantum Classifier": {
+    "accuracy": 0.9298245614035088,
+    "recall_malignant": 0.8125,
+    "f1": 0.896551724137931,
+    "roc_auc": 0.9962032710280374,
+    "seconds": 13.19,
+    "confusion_matrix": [
+      [
+        107,
+        0
+      ],
+      [
+        12,
+        52
+      ]
+    ]
+  }
+}
